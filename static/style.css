@@ -11,6 +11,10 @@ body {
     margin-bottom: 1em;
 }
 
+#footer {
+    color: gray;
+}
+
 #main-canvas {
     text-align: center;
 }
