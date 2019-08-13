@@ -31,4 +31,6 @@ function drawMset(canvas, sx, sy, zoom) {
 
 function draw() {
     drawMset(document.getElementById("main-canvas"), 0.32, 0.1, 10);
+	drawMset(document.getElementById("main-canvas1"), 0.32, 0.1, 10);
+	drawMset(document.getElementById("main-canvas2"), 0.32, 0.1, 10);
 }
