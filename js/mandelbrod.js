@@ -22,7 +22,7 @@ function drawMset(canvas, sx, sy, zoom) {
             let value = computePoint(x / canvas.width / zoom + sx, y / canvas.height / zoom + sy);
             value = Math.sqrt(value);
             let p = value * 100;
-            ctx.fillStyle = 'hsl(' + p + ', 100%,'  + p + '%)';
+            ctx.fillStyle = 'hsl(' + (250 - p) + ', 100%,'  + p + '%)';
 
             ctx.fillRect(x, y, 1, 1);
         }
