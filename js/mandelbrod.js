@@ -29,6 +29,7 @@ function drawMset(canvas, sx, sy, zoom) {
     }
 };
 
+// Dokumentace
 function draw() {
-    drawMset(document.getElementById("main-canvas"), 0.35, 0.1, 10);
+    //drawMset(document.getElementById("main-canvas"), 0.35, 0.1, 10);
 }
